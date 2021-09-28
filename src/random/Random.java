@@ -58,14 +58,43 @@ public class Random {
         //System.out.println(fr);
         //System.out.println(fr.substring(10));
         System.out.println(fr.substring(11,20));*/
+        
+        /*
+        // Метод trim() - позволяет удалить пробелы в начале и конце строки.
+        String fr1 = "     Java - очень крутой язык программирования.    ";
+        String fr12= "     Java - очень крутой язык программирования.    ";
                 
+        System.out.println(fr1); 
+        System.out.println(fr1.trim()); */
+                
+        /*
+        // Метод endsWith - определяет заканчивается ли строка заданным значением.
+        String fr = "Good morning";
+        boolean b1 = fr.endsWith("morning");
+        boolean b2 = fr.endsWith("evening");
+        System.out.println("Строка " + fr + " заканчивается 'morning'?   " + b1);
+        System.out.println("Строка " + fr + " заканчивается 'evening'?   " + b2);*/
        
+        /*
+        // Метод toUpperCase - делает все буквы в строке заглавными
+        String fr = "Красною кистью\nРябина зажглась.\nПадали листья.\nЯ родилась.";
+        System.out.println(fr);
+        System.out.println(fr.toUpperCase());*/
+        
+        /*
+        // Метод toLowerCase() в Java - сделать буквы строчными
+        String fr = "Красною Кистью Рябина Зажглась. Падали Листья, Я Родилсь.";
+        System.out.println(fr);
+        System.out.println(fr.toLowerCase());*/
         
         
-        
-        
-        
-        
+        // Метод equals() в Java - проверяет равны ли два объекта.
+        String fr1 = "Шоколадом лечить печаль";
+        String fr2 = "Шоколадом лечить печаль";
+        String fr3 = "И смеяться в лицо прохожим!";
+        System.out.println("Сравниваем fr1 и fr2:  " + fr1.equals(fr2));
+        System.out.println(fr1.equals(fr3)); 
+
 
 
 
